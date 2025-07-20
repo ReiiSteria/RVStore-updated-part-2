@@ -1,0 +1,52 @@
+# FastAPI Backend Requirements for TopUp Game MIS
+
+# Core FastAPI
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+pymysql==1.1.0
+aiomysql==0.2.0
+alembic==1.12.1
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Environment & Configuration
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP Client
+httpx==0.25.2
+requests==2.31.0
+
+# Date & Time
+python-dateutil==2.8.2
+
+# Validation & Serialization
+email-validator==2.1.0
+
+# CORS
+fastapi-cors==0.0.6
+
+# Logging & Monitoring
+structlog==23.2.0
+
+# Development & Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Optional: For async database operations
+asyncio==3.4.3
+
+# Optional: For data analysis (if needed for reports)
+pandas==2.1.4
+numpy==1.25.2
+
+# Optional: For caching
+redis==5.0.1
